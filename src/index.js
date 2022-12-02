@@ -36,5 +36,5 @@ const handleMinus = () => {
   countStore.dispatch({ type: MINUS });
 };
 
-add.addEventListener("Click", handleAdd);
-minus.addEventListener("Click", handleMinus);
+add.addEventListener("click", handleAdd);
+minus.addEventListener("click", handleMinus);
